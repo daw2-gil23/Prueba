@@ -1,4 +1,4 @@
-import { U as User, P as Perfil } from "./main-193633d7.js";
+import { U as User, P as Perfil } from "./main-49fd5316.js";
 const registroVista = {
   template: `
   <div class="container mt-5">
@@ -76,15 +76,15 @@ const registroVista = {
         const nuevoUser = await User.create(usuario);
         const perfilData = {
           nombre: document.querySelector("#nombreR").value,
+          rol: "registrado",
           apellidos: document.querySelector("#apellidosR").value,
           email: document.querySelector("#emailR").value,
-          rol: "registrado",
           user_id: nuevoUser.id
           // Tomamos el id que nos devuelve el registro
         };
         await Perfil.create(perfilData);
         alert("Usuario creado con éxito");
-        window.location.href = "/trabajos_alumno/#/login";
+        window.location.href = "/#/login";
       } catch (error) {
         console.log(error);
         alert("Error al crear usuario");

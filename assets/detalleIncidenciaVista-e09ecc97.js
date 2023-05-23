@@ -1,5 +1,5 @@
-import { I as Incidencia } from "./incidencias-d0cbacd7.js";
-import { P as Perfil } from "./main-49fd5316.js";
+import { I as Incidencia } from "./incidencias-28af5cd5.js";
+import { P as Perfil } from "./main-898de3e1.js";
 const detalleIncidenciaVista = {
   template: `
 <div class="container mt-5">

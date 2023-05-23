@@ -1,5 +1,5 @@
-import { U as User, P as Perfil } from "./main-49fd5316.js";
-import { I as Incidencia } from "./incidencias-d0cbacd7.js";
+import { U as User, P as Perfil } from "./main-898de3e1.js";
+import { I as Incidencia } from "./incidencias-28af5cd5.js";
 const nuevaIncidenciaVista = {
   template: `
   <div
@@ -48,7 +48,7 @@ const nuevaIncidenciaVista = {
         };
         await Incidencia.create(incidencia);
         alert("Proyecto creado con éxito");
-        window.location.href = "/#/incidencias";
+        window.location.href = "/Prueba/#/incidencias";
       } catch (error) {
         console.log(error);
         alert("Error al crear proyecto " + error);

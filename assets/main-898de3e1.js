@@ -12021,7 +12021,7 @@ const menuUsuario = {
         e.preventDefault();
         await User.logout();
         header.script();
-        window.location.href = "/trabajos_alumnos/#/home";
+        window.location.href = "/Prueba/#/home";
       });
     } else {
       const imgAvatar = "/imagenes/avatar.svg";
@@ -12098,13 +12098,13 @@ const enrutador = {
     home: __vitePreload(() => import("./homeVista-b4349d90.js"), true ? [] : void 0, import.meta.url),
     // Usuarios
     // adminUsuarios: import('../vistas/admin/adminVista.js'),
-    registro: __vitePreload(() => import("./registroVista-62d99534.js"), true ? [] : void 0, import.meta.url),
-    login: __vitePreload(() => import("./loginVista-2d2b5261.js"), true ? [] : void 0, import.meta.url),
+    registro: __vitePreload(() => import("./registroVista-241959ae.js"), true ? [] : void 0, import.meta.url),
+    login: __vitePreload(() => import("./loginVista-eb79aa1a.js"), true ? [] : void 0, import.meta.url),
     // Proyectos
-    incidencias: __vitePreload(() => import("./incidenciasVistas-00200de3.js"), true ? ["./incidenciasVistas-00200de3.js","./incidencias-d0cbacd7.js"] : void 0, import.meta.url),
-    nuevaIncidencia: __vitePreload(() => import("./nuevaIncidenciaVista-7ce8dde2.js"), true ? ["./nuevaIncidenciaVista-7ce8dde2.js","./incidencias-d0cbacd7.js"] : void 0, import.meta.url),
-    editarIncidencia: __vitePreload(() => import("./editarIncidenciaVista-d0a86573.js"), true ? ["./editarIncidenciaVista-d0a86573.js","./incidencias-d0cbacd7.js"] : void 0, import.meta.url),
-    detalleIncidencia: __vitePreload(() => import("./detalleIncidenciaVista-9e6cce26.js"), true ? ["./detalleIncidenciaVista-9e6cce26.js","./incidencias-d0cbacd7.js"] : void 0, import.meta.url)
+    incidencias: __vitePreload(() => import("./incidenciasVistas-7735b253.js"), true ? ["./incidenciasVistas-7735b253.js","./incidencias-28af5cd5.js"] : void 0, import.meta.url),
+    nuevaIncidencia: __vitePreload(() => import("./nuevaIncidenciaVista-24aba034.js"), true ? ["./nuevaIncidenciaVista-24aba034.js","./incidencias-28af5cd5.js"] : void 0, import.meta.url),
+    editarIncidencia: __vitePreload(() => import("./editarIncidenciaVista-7c2133a3.js"), true ? ["./editarIncidenciaVista-7c2133a3.js","./incidencias-28af5cd5.js"] : void 0, import.meta.url),
+    detalleIncidencia: __vitePreload(() => import("./detalleIncidenciaVista-e09ecc97.js"), true ? ["./detalleIncidenciaVista-e09ecc97.js","./incidencias-28af5cd5.js"] : void 0, import.meta.url)
     // misProyectos: import('../vistas/proyectos/misProyectosVista.js'),
     // // Enunciados
     // enunciados: import('../vistas/enunciados/enunciadosVista.js'),
@@ -12155,7 +12155,7 @@ document.querySelector("#header").innerHTML = header.template;
 header.script();
 document.querySelector("#footer").innerHTML = footer.template;
 enrutador.observadorRutas();
-window.location = "/#/home";
+window.location = "/Prueba/#/home";
 export {
   Perfil as P,
   User as U,

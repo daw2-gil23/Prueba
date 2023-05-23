@@ -1,5 +1,5 @@
-import { I as Incidencia } from "./incidencias-d0cbacd7.js";
-import "./main-49fd5316.js";
+import { I as Incidencia } from "./incidencias-28af5cd5.js";
+import "./main-898de3e1.js";
 const editarIncidenciaVista = {
   template: `
     <div
@@ -60,7 +60,7 @@ const editarIncidenciaVista = {
       incidencia.nombre_equipo = nombre_equipo.value;
       incidencia.descripcion = descripcion.value;
       incidencia.update();
-      window.location.href = "/#/incidencias";
+      window.location.href = "/Prueba/#/incidencias";
     });
   }
 };

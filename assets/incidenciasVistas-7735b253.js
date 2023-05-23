@@ -1,11 +1,11 @@
-import { I as Incidencia } from "./incidencias-d0cbacd7.js";
-import { P as Perfil, U as User } from "./main-49fd5316.js";
+import { I as Incidencia } from "./incidencias-28af5cd5.js";
+import { P as Perfil, U as User } from "./main-898de3e1.js";
 const incidenciasVistas = {
   template: `
     <main style="padding-top: 100px">
     <div class="container">
         <h1>Incidencias</h1>
-        <a href="/#/nuevaIncidencia" id="nuevaIncidencia" class="btn btn-success mt-3">Nueva Incidencia</a>
+        <a href="/Prueba/#/nuevaIncidencia" id="nuevaIncidencia" class="btn btn-success mt-3">Nueva Incidencia</a>
         <table id="tablaIncidencias" class="table table-striped table-hover mt-5 align-middle">
             <thead>
                 <tr>
@@ -106,7 +106,7 @@ const incidenciasVistas = {
           if (e.target.classList.contains("editar")) {
             if (rol !== "anonimo") {
               if (rol === "admin") {
-                window.location.href = "/#/editarIncidencia/" + id;
+                window.location.href = "/Prueba/#/editarIncidencia/" + id;
               } else {
                 alert("Debes ser administrador para poder editarlo");
               }
@@ -115,7 +115,7 @@ const incidenciasVistas = {
             }
           }
           if (e.target.classList.contains("detalle")) {
-            window.location.href = "/#/detalleIncidencia/" + id;
+            window.location.href = "/Prueba/#/detalleIncidencia/" + id;
           }
         });
       }

@@ -1,4 +1,4 @@
-import { s as supabase } from "./main-49fd5316.js";
+import { s as supabase } from "./main-898de3e1.js";
 class Incidencia {
   // Mapping de propiedades de la tabla perfiles
   constructor(id = null, created_at = null, descripcion = null, nombre_equipo = null, perfil_id = null) {
